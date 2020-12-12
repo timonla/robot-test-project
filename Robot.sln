@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Robot", "Robot\Robot.csproj", "{37E645F1-8E8F-42F5-B839-63A23A15EAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robot.Tests", "Robot.Tests\Robot.Tests.csproj", "{F9AB2F79-70E6-46E9-BEDA-C6D46EC978DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37E645F1-8E8F-42F5-B839-63A23A15EAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E645F1-8E8F-42F5-B839-63A23A15EAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E645F1-8E8F-42F5-B839-63A23A15EAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E645F1-8E8F-42F5-B839-63A23A15EAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9AB2F79-70E6-46E9-BEDA-C6D46EC978DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9AB2F79-70E6-46E9-BEDA-C6D46EC978DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9AB2F79-70E6-46E9-BEDA-C6D46EC978DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9AB2F79-70E6-46E9-BEDA-C6D46EC978DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F4434A4-C92C-46D3-B8D2-69D039A1623B}
+	EndGlobalSection
+EndGlobal
