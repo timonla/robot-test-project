@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace WhenCreatingRobot {
     [TestFixture]
     public class Always {
-        private static Robot robot;
+        public Robot robot;
 
         [SetUp]
         public void Setup() {

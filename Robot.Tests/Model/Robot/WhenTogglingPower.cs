@@ -5,7 +5,7 @@ using Telerik.JustMock;
 
 namespace WhenTogglingPower {
     public class WhenTogglingPower {
-        public static Robot robot;
+        public Robot robot;
 
         public void Act() {
             robot.TogglePower();
