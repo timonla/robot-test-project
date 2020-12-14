@@ -20,7 +20,7 @@ namespace WhenTogglingPower {
             robot.State = RobotState.Off;
         }
 
-        public class BatteryHasCharge : GivenRobotIsTurnedOff {
+        public class PowerSourceHasCharge : GivenRobotIsTurnedOff {
             [SetUp]
             public override void Setup() {
                 base.Setup();
@@ -36,7 +36,7 @@ namespace WhenTogglingPower {
             }
         }
 
-        public class BatteryHasNoCharge : GivenRobotIsTurnedOff {
+        public class PowerSourceHasNoCharge : GivenRobotIsTurnedOff {
             [SetUp]
             public override void Setup() {
                 base.Setup();
